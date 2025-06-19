@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7; /* Define a cor do fundo da página (cinza claro) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Escolhe a fonte do texto. Arial primeiro, se não tiver, Helvetica, se não tiver, qualquer sans-serif */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    border: 4px solid #72440f;
+}
+
+.info-pessoais{
+    text-align: center;
+}
+
+.card .info-pessoais h1{
+    font-size: 24px;
+    color: #666;
+}
+
+.card .info-pessoais p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card  p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.card  li {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.card section p {
+    text-align: justify;
+    margin: 10px;
+}
+
+.card section h2 {
+    font-size: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 4px;
+    margin-top: 20px;
+}
+
+.card h3 {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.card .tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+.tag {
+    background-color: #72440f;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+
+    transition: background-color 0.3s;
+}
+
+.tag:hover {
+    background-color: #a7631f;
+}
